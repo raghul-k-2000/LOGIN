@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+/*@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background:url(registerback.jpg) no-repeat;
+	background-attachment:fixed;
+	background-size: 1360px 640px;
+}
+.names{
+	color:white;
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:10px 0;
+	margin:28px 0;
+	/*border-bottom:2px solid #4caf50;*/
+	/*padding-left:200px;*/
+}
+.button {
+        background-color:white;
+        border: none;
+        color: black;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 2px 1px;
+        cursor: pointer;
+}
+/*a.button{
+	width:100%;
+	background:white;
+	border:2px solid #4caf50;
+	line-height:1.4;
+	color:black;
+	padding:2px;
+	font-size:20px;
+	cursor:pointer;
+	margin:2px 0;
+}	*/ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  /*margin-right: 0.625%;
+  text-align: center;*/
+  /*line-height: 3;*/
+  color: black;
+ background:white;
+ padding:1.4px 36px;
+ float:none;
+}
+/*input{
+	padding-left:200px;
+}*/
+.table{
+	text-align:center; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:100px;
+}
+ tr,td {text-align:left;}
+ .center {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  margin-bottom: auto;
+}
